@@ -1,0 +1,125 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+}
+body{
+    background-image: url(../images/light-website-backgrounds-light-color-background-images-light-color-background-images-for-website-1024x640.webp);
+    background-size:cover ;
+    /* height: 100vh; */
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+   /* display: flex; */
+  /* background-color: black;
+   opacity: 0.3; */
+
+}
+.img1{
+    width: 20%;
+    height: 20%;
+}
+.first{
+  font-size:2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+ 
+    font-size: 1.5rem;
+}
+.ask{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.btn1{
+    width: 15%;
+    border: none;
+    height: 30%;
+    font-size: 1.5rem;
+    background: transparent;
+    color: black; /* Set the default font color */
+}
+
+.btn1:hover {
+    border:  solid black;
+    border-radius: 10%;
+    color: black; /* Change the font color on hover to enhance visibility */
+}
+.det{
+    display: flex;
+}
+.img{
+  position: relative;
+  top: 100px;
+}
+/* form  */
+form {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    grid-column: span 2;
+}
+
+label {
+    padding: 6px;
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input, select, textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 8px;
+}
+
+.form-group.full {
+    grid-column: span 2;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    grid-column: span 2;
+}
+
+button:hover {
+    background-color: #45a049;
+}

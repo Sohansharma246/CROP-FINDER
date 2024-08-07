@@ -1,0 +1,258 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: border-box;
+}
+body{
+    background-image: url(../images/hand-drawn-india-lifestyle-illustration_23-2149659961.jpg);
+    background-size:cover ;
+    /* height: 100vh; */
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.navbar{
+    width: 100%;
+    height: 10%;
+   /* display: flex; */
+  /* background-color: black;
+   opacity: 0.3; */
+
+}
+.img1{
+    width: 20%;
+    height: 20%;
+}
+.first{
+  font-size:2rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+ 
+    font-size: 1.5rem;
+}
+.ask{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.btn1{
+    width: 15%;
+    border: none;
+    height: 30%;
+    font-size: 1.5rem;
+    background: transparent;
+    color: black; /* Set the default font color */
+}
+
+.btn1:hover {
+    border:  solid black;
+    border-radius: 10%;
+    color: black; /* Change the font color on hover to enhance visibility */
+    
+}
+.sell{
+    width: 20%;
+    height:50vh;
+ border:2px solid black;
+ background: #ffffff10;
+ backdrop-filter: blur(0.3rem);
+ position: relative;
+ top: 17vh;
+ left: 25vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 10%;
+}
+.btn2{
+    /* display: block; */
+    padding: 10px;
+    margin:10px;
+    font-size: 20px;
+    background: rgba(28, 26, 26, 0.5);
+    border-radius: 10%;
+    color: white;
+}
+/* login */
+#man{
+    border:2px solid black;
+    background: #ffffff10;
+    backdrop-filter: blur(0.3rem);
+      position: absolute;
+      top: 30%;
+      left: 40%;
+      border: 1px solid black;
+      border-radius: 6px;
+      width: 23%;
+      height: 50%;
+    
+  }
+  #man:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+     
+    color: rgb(15, 15, 15);
+  }
+  .lh1{
+   color: rgb(15, 16, 17);
+      margin-top: 40px;
+      text-align: center
+  }
+  #first{
+      display: block;
+      width: 80%;
+      padding: 15px;
+      margin: 60px 3px 20px 50px;
+   
+  
+  }
+  #second{
+      
+      display: block;
+  width: 80%;
+  padding: 15px;
+  margin: 20px 3px 50px 50px;
+  
+  }
+  #username{
+      width: 80%;
+      border-bottom:  2px solid rgb(25, 25, 26);
+      border-top:0px;
+      border-left: 0px;
+      border-right: 1px solid rgb(25, 25, 26);
+     background-color: transparent;
+     color: rgb(23, 24, 24);
+  }
+  #username::placeholder{
+    font-size: 1.3rem;
+    color: rgb(25, 25, 26);
+  }
+  #password::placeholder{
+    font-size: 1.3rem;
+    color: rgb(25, 25, 26);
+   }
+  #password{
+      width: 80%;
+      border-bottom: 2px solid rgb(25, 25, 26);
+      border-top:0px;
+      border-left: 0px;
+      border-right: 1px solid rgb(25, 25, 26);
+      background-color: transparent;
+      color: rgb(16, 17, 17);
+  }
+  #username:focus{
+    outline: none;
+  
+  }
+  #password:focus{
+      outline: none;
+    }
+    #nn:hover{
+        
+        color: rgb(17, 18, 19);
+    }
+    #nn{
+        margin-left: 2.7rem;
+        padding: 10px;
+        width: 80%;
+        border-radius: 2rem;
+        background-color: transparent;
+        border: 2px solid rgb(21, 21, 21);
+        color: rgb(1, 1, 3);;
+    }
+
+
+/* sign in */
+#fffman{
+    border:2px solid black;
+    background: #ffffff10;
+    backdrop-filter: blur(0.3rem);
+      position: absolute;
+      top: 10%;
+      left: 40%;
+      border: 1px solid rgb(2, 2, 2);
+      border-radius: 6px;
+      width: 23%;
+      height: max-content;
+    
+  }
+  #fffman:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+     
+    color: rgb(4, 4, 4);
+  }
+  h1{
+   color: rgb(2, 2, 2);
+      margin-top: 40px;
+      text-align: center
+  }
+  #ffirst{
+      display: block;
+      width: 80%;
+      padding: 15px;
+      margin: 60px 3px 20px 50px;
+   
+  
+  }
+  #fsecond,#fthird,#ffourth,#ffive,#ffsix{
+   
+      display: block;
+  width: 80%;
+  padding: 15px;
+  margin: 10px 3px 20px 50px;
+  
+  }
+  #fusername{
+      width: 80%;
+      border-bottom:  2px solid rgb(2, 2, 2);
+      border-top:0px;
+      border-left: 0px;
+      border-right: 1px solid rgb(2, 2, 2);
+     background-color: transparent;
+     color: rgb(2, 2, 2);
+  }
+  #fusername::placeholder{
+    font-size: 1.2rem;
+    color: rgb(2, 2, 2);
+  }
+  #fpassword::placeholder,#femail::placeholder,#femid::placeholder,#fcpassword::placeholder{
+    font-size: 1.2rem;
+    color: rgb(2, 2, 2);
+   }
+  #fpassword,#femail,#femid,#fcpassword{
+      width: 80%;
+      border-bottom: 2px solid rgb(2, 2, 2);
+      border-top:0px;
+      border-left: 0px;
+      border-right: 1px solid rgb(2, 2, 2);
+      background-color: transparent;
+      color: rgb(2, 2, 2);
+      height: 20px;
+  }
+  #fusername:focus,#fpassword:focus,#femail:focus,#femid:focus,#fcpassword:focus{
+    outline: none;
+  
+  }
+  /* #fpassword:focus{
+      outline: none;
+    } */
+   
+  #fnn:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+      color: aliceblue;
+  }
+  #fnn{
+      margin: 2.7rem;
+      padding: 10px;
+      width: 80%;
+      border-radius: 2rem;
+      background-color: transparent;
+      border: 2px solid rgb(2, 2, 2);
+      color: rgb(2, 2, 2);
+  }
